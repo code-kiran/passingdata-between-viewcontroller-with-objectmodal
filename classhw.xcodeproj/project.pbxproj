@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F27D5E5213D193A00EDD5D9 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F27D5E4213D193A00EDD5D9 /* DataController.swift */; };
+		9F27D5E7213D21C600EDD5D9 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F27D5E6213D21C600EDD5D9 /* homeViewController.swift */; };
+		9F27D5E9213D453C00EDD5D9 /* LandingVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F27D5E8213D453C00EDD5D9 /* LandingVC1.swift */; };
 		9FEADA6E213BFF1B00448A12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEADA6D213BFF1B00448A12 /* AppDelegate.swift */; };
 		9FEADA70213BFF1B00448A12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEADA6F213BFF1B00448A12 /* ViewController.swift */; };
 		9FEADA73213BFF1B00448A12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEADA71213BFF1B00448A12 /* Main.storyboard */; };
 		9FEADA75213BFF1B00448A12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEADA74213BFF1B00448A12 /* Assets.xcassets */; };
 		9FEADA78213BFF1B00448A12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEADA76213BFF1B00448A12 /* LaunchScreen.storyboard */; };
+		9FFB3DCD213C263200B6732F /* TextField Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB3DCC213C263200B6732F /* TextField Extension.swift */; };
+		9FFB3DCF213C276700B6732F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB3DCE213C276700B6732F /* LoginVC.swift */; };
+		9FFB3DD2213C3E1000B6732F /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB3DD1213C3E1000B6732F /* RegisterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F27D5E4213D193A00EDD5D9 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		9F27D5E6213D21C600EDD5D9 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		9F27D5E8213D453C00EDD5D9 /* LandingVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingVC1.swift; sourceTree = "<group>"; };
 		9FEADA6A213BFF1B00448A12 /* classhw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = classhw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEADA6D213BFF1B00448A12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FEADA6F213BFF1B00448A12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		9FEADA74213BFF1B00448A12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FEADA77213BFF1B00448A12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FEADA79213BFF1B00448A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFB3DCC213C263200B6732F /* TextField Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField Extension.swift"; sourceTree = "<group>"; };
+		9FFB3DCE213C276700B6732F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9FFB3DD1213C3E1000B6732F /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,7 @@
 		9FEADA61213BFF1B00448A12 = {
 			isa = PBXGroup;
 			children = (
+				9FFB3DD0213C3C0300B6732F /* Extension */,
 				9FEADA6C213BFF1B00448A12 /* classhw */,
 				9FEADA6B213BFF1B00448A12 /* Products */,
 			);
@@ -56,12 +69,25 @@
 			children = (
 				9FEADA6D213BFF1B00448A12 /* AppDelegate.swift */,
 				9FEADA6F213BFF1B00448A12 /* ViewController.swift */,
+				9F27D5E6213D21C600EDD5D9 /* homeViewController.swift */,
 				9FEADA71213BFF1B00448A12 /* Main.storyboard */,
 				9FEADA74213BFF1B00448A12 /* Assets.xcassets */,
 				9FEADA76213BFF1B00448A12 /* LaunchScreen.storyboard */,
 				9FEADA79213BFF1B00448A12 /* Info.plist */,
+				9FFB3DCE213C276700B6732F /* LoginVC.swift */,
+				9FFB3DD1213C3E1000B6732F /* RegisterVC.swift */,
+				9F27D5E4213D193A00EDD5D9 /* DataController.swift */,
+				9F27D5E8213D453C00EDD5D9 /* LandingVC1.swift */,
 			);
 			path = classhw;
+			sourceTree = "<group>";
+		};
+		9FFB3DD0213C3C0300B6732F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9FFB3DCC213C263200B6732F /* TextField Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F27D5E7213D21C600EDD5D9 /* homeViewController.swift in Sources */,
 				9FEADA70213BFF1B00448A12 /* ViewController.swift in Sources */,
+				9F27D5E9213D453C00EDD5D9 /* LandingVC1.swift in Sources */,
+				9F27D5E5213D193A00EDD5D9 /* DataController.swift in Sources */,
 				9FEADA6E213BFF1B00448A12 /* AppDelegate.swift in Sources */,
+				9FFB3DCF213C276700B6732F /* LoginVC.swift in Sources */,
+				9FFB3DCD213C263200B6732F /* TextField Extension.swift in Sources */,
+				9FFB3DD2213C3E1000B6732F /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N373WCYYY4;
 				INFOPLIST_FILE = classhw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N373WCYYY4;
 				INFOPLIST_FILE = classhw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
